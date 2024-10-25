@@ -33,7 +33,7 @@ services:
     # 原版镜像
     # image: registry.cn-hangzhou.aliyuncs.com/wenjian_oj/judgeserver
     # 开发版镜像
-    image: registry.cn-qingdao.aliyuncs.com/wenjian_oj/judge_server
+    image: crpi-8c7rjbe3mznnir6q.cn-hangzhou.personal.cr.aliyuncs.com/lmist_oj/judge_server_oj
     # 稳定版镜像
     container_name: judge-server
     restart: always
@@ -58,7 +58,7 @@ services:
       # - judger_debug=1
   
   oj-backend:
-    image: registry.cn-qingdao.aliyuncs.com/wenjian_oj/backend
+    image: crpi-8c7rjbe3mznnir6q.cn-hangzhou.personal.cr.aliyuncs.com/lmist_oj/backend_oj
     # 稳定版
     # image: registry.cn-hangzhou.aliyuncs.com/wenjian_oj/oj-backend
     # 开发版
